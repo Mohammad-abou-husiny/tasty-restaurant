@@ -142,6 +142,7 @@ nav.navbar{
      border: 2px solid rgb(160, 139, 23);
      background-image: url('../assets/background.avif');
     padding: 20px;
+    overflow: hidden;
 }
 .contact-grid{
      display: grid;
@@ -173,6 +174,8 @@ nav.navbar{
    .orders-table {
   margin: 20px;
   color: rgb(160, 139, 23);
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 .orders-table table {
