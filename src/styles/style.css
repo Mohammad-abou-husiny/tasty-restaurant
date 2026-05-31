@@ -209,6 +209,9 @@ nav.navbar{
 
     
     height:250px;
+    }
+    .item-menu{
+        grid-template-columns: 1fr;
     }    
 }
     @media (max-width: 768px) {
