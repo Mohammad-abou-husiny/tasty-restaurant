@@ -97,7 +97,7 @@ function Contact() {
     
         <div className="location">
          <h2>📍 Our Location</h2>
-         <a href="https://www.google.com/maps/place/Zahl%C3%A9/@33.845374,35.8905769,14z/data=!3m1!4b1!4m6!3m5!1s0x151f353ad3fa0839:0x64fab81a412d95ee!8m2!3d33.8485061!4d35.8981093!16s%2Fg%2F1yl46_jxh?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">📍Click here to see the lcation📍</a>
+         <a href="https://www.google.com/maps/place/Zahl%C3%A9/@33.845374,35.8905769,14z/data=!3m1!4b1!4m6!3m5!1s0x151f353ad3fa0839:0x64fab81a412d95ee!8m2!3d33.8485061!4d35.8981093!16s%2Fg%2F1yl46_jxh?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">📍Click here to see the lcation📍</a>
          
         </div>
 

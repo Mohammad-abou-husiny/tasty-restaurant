@@ -15,7 +15,7 @@ import logo from "../assets/logo.jpg";
         
     <div className="nav-item dropdown">
     
-        <a className= "nav-link dropdown-toggle text-white"  href="#" role="button"  data-bs-toggle="dropdown">Dropdown</a>
+        <a className= "nav-link dropdown-toggle text-white"  href="/" role="button"  data-bs-toggle="dropdown">Dropdown</a>
         <ul className="dropdown-menu" > 
             <li> <Link className="dropdown-item" to="/">Home</Link></li>
             <li> <Link className="dropdown-item" to="/about">About</Link></li>

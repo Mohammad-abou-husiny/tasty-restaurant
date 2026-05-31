@@ -16,7 +16,7 @@ function Home() {
     </ul>
 <div className="carousel-inner">
     <div className="carousel-item active">
-        <img className="imagehome" src={First} title="food" width="100%" height="500px" />
+        <img className="imagehome" src={First}  alt="food" title="food" width="100%" height="500px" />
         <div className="carousel-caption">
             <h1 className="titlehome">Food</h1>
             <p className="h">Delicious Food,Great Atmosphere</p>
@@ -24,7 +24,7 @@ function Home() {
         </div>
     
         <div className="carousel-item">
-        <img className="imagehome" src={drinkimage2} title="drinks" width="100%" height="500px" />
+        <img className="imagehome" src={drinkimage2} alt="drinks" title="drinks" width="100%" height="500px" />
         <div className="carousel-caption">
             <h1 className="titlehome">Drinks</h1>
             <p className="h">Refreshing Drinks,Great Service</p>
@@ -32,7 +32,7 @@ function Home() {
     </div>
    
     <div className="carousel-item">
-        <img className="imagehome" src={three} title="desserts" width="100%" height="500px" />
+        <img className="imagehome" src={three} alt="desserts" title="desserts" width="100%" height="500px" />
         <div className="carousel-caption">
             <h1 className="titlehome">Desserts</h1>
             <p className="h">Delicious Desserts,perfect Taste</p>

@@ -18,7 +18,7 @@ function About() {
         </p>
      </div>
  
-     <img className="imagesabout" src= {resturant}  alt="resturant image" />
+     <img className="imagesabout" src= {resturant}  alt="resturant" />
      
 
 </div>
