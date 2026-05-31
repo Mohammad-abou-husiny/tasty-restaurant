@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    max-width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*css"Home"*/
+
+nav.navbar{
+    background-color: rgb(2, 0, 0) !important;
+    position:sticky;
+    top:0;
+    z-index: 1000;
+}
+.imagehome{
+    width: 100%;
+    height: 600px;
+}
+.footer{
+    background-color: black;
+    color: rgb(160, 139, 23);
+    font-weight: bold; 
+    font-style: italic;
+    text-align: center;
+    clear: both;
+    padding: 2px;
+}
+.carousel-caption{
+    color:aliceblue;
+    font-family:'Courier New', Courier, monospace; 
+    
+}
+
+.dropdown{
+    font-weight: bold;
+}
+
+
+/*css"Menu"*/
+.item-menu{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+      gap:20px;
+    align-items: center;
+    padding:10px;
+    
+}
+  .menu{
+    border: 2px solid rgb(160, 139, 23);
+    background-image: url('../assets/background.avif');
+    
+}
+
+#title{
+   font-weight: bold ;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center; 
+   margin:20px  auto 40px ;
+    color:  rgb(160, 139, 23);
+    display: block;
+
+}
+
+    
+ #titlemenu{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(160, 139, 23);
+    padding-left: 20px;
+
+
+   }
+   .pargmenu{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(160, 139, 23);
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+   }
+   
+.imagesmenu{
+    border:2px solid  rgb(160, 139, 23);
+    width: 100%;
+    height: 350px;
+ object-fit: cover ;
+ margin-bottom: 10px;
+ 
+}
+.search{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid rgb(160, 139, 23);
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(160, 139, 23);
+    font-size: 16px;
+}
+
+
+/*css"ABOUT"*/
+.item-about{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+      gap:1rem;
+      padding:1rem;
+    
+}
+.about{
+     border: 2px solid rgb(160, 139, 23);
+     background-image: url('../assets/background.avif');
+   
+}
+.imagesabout{
+    border:2px solid  rgb(160, 139, 23);
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+ margin-bottom:10px ;
+
+}
+.pargabout{
+    font-weight: bold;
+    color: rgb(160, 139, 23);
+    padding-left: 70px;
+
+   }
+#titleabout{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(160, 139, 23);
+    padding-left: 50px;
+}
+/*css"contact"*/
+.contact{
+     border: 2px solid rgb(160, 139, 23);
+     background-image: url('../assets/background.avif');
+    padding: 20px;
+}
+.contact-grid{
+     display: grid;
+    grid-template-columns:1fr 1fr;
+      gap:1rem;
+      padding:1rem;
+    
+}
+.box{
+ border: 2px solid rgb(160, 139, 23);
+  border-radius: 10px;
+  padding: 20px;
+}
+.pargcontact{
+    font-weight: bold;
+    color:  rgb(160, 139, 23);
+    
+
+   }
+   .location{
+    font-weight: bold ;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center; 
+   margin:20px  auto 40px ;
+    color:  rgb(160, 139, 23);
+
+   }
+   .orders-table {
+  margin: 20px;
+  color: rgb(160, 139, 23);
+}
+
+.orders-table table {
+  width: 100%;
+  border-collapse: collapse;
+  color: rgb(160, 139, 23);
+}
+
+.orders-table th, .orders-table td {
+  border: 1px solid rgb(160, 139, 23);
+  padding: 10px;
+  text-align: center;
+}
+
+.success-msg {
+  text-align: center;
+  color: rgb(160, 139, 23);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+@media (max-width:768px){
+    
+
+    .imagesmenu{
+        height:250px;
+    }
+    .imagesabout{
+
+    
+    height:250px;
+    }    
+}
+    @media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/*Backtotopcss*/
+    
+.backtotop{
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    background-color: rgb(160, 139, 23);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999;
+    
+}
+/*Ratingcss*/
+.rating{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color:rgb(160, 139, 23);
+    font-weight: bold;
+    font-size: 18px;
+}
+.star{
+    cursor: pointer;
+    font-size: 40px;
+    color: antiquewhite;
+    margin: 5px;
+
+}
+.star.active{
+    color:rgb(160, 139, 23);
+}
+
+/*hoverforimagecss*/
+.imagesabout:hover,.imagesmenu:hover,.imagehome:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
